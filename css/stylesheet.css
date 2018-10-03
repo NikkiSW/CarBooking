@@ -1,0 +1,250 @@
+html, body {
+	font-family: Arial;
+	color: #4c4c4c;
+	padding: 0;
+	margin: 0;
+	height: 100%;
+}
+
+#page {
+	background-color: #ffffff;
+	margin: 0 auto;
+	width: 900px;
+	box-shadow: 0 6px 10px rgba(100, 100, 100, 0.3);
+}
+
+#header {
+  padding: 4% 1% 4% 1%;
+  background: #fcfcfc;
+  background-image: -moz-linear-gradient(top, #fcfcfc, #f3f3f3);
+	background-image: -ms-linear-gradient(top, #fcfcfc, #f3f3f3);
+	background-image: -webkit-linear-gradient(top, #fcfcfc, #f3f3f3);
+	background-image: -o-linear-gradient(top, #fcfcfc, #f3f3f3);
+	background-image: linear-gradient(top, #fcfcfc, #f3f3f3);
+}
+
+.logo {
+	font-family: Myriad Pro, Century Gothic, Arial;
+	color: #605f5f; /* dark grey */
+	font-size: 24px;
+}
+
+.header_link {
+  float: right;
+  font-size: 12px;
+  line-height: 2.5;
+  color: #a30303;
+}
+
+#menu {
+  text-align: right;
+  color: #ffffff;
+  width: 96%;
+  font-size: 12px;
+  padding: 1% 2% 1% 2%;
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#860202), to(#860202), color-stop(.5,#a30303));
+	background: -moz-linear-gradient(19% 100% 90deg,#860202, #a30303, #860202 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a30303', endColorstr='#860202');
+}
+
+#content {
+  padding: 8% 2% 5% 2%;
+  background: #ffffff;
+  background-image: -moz-linear-gradient(top, #f3f3f3 0%, #ffffff 60px);
+	background-image: -ms-linear-gradient(top, #f3f3f3 0%, #ffffff 60px);
+	background-image: -webkit-linear-gradient(top, #f3f3f3 0%, #ffffff 60px);
+	background-image: -o-linear-gradient(top, #f3f3f3 0%, #ffffff 60px);
+	background-image: linear-gradient(top, #f3f3f3 0%, #ffffff 60px);
+	font-size: 12px;
+}
+
+#footer {
+	clear: both;
+	color: #4c4c4c;
+	font-size: 10px;
+	margin: 0 auto 30px auto;
+	padding: 5px;
+	position: relative;
+	text-align: center;
+	border-top: solid 1px #e3e3e3;
+	line-height: 2.4;
+}
+
+/* red links */
+a {
+	font-size: 12px;
+	font-weight: normal;
+	font-family: Arial;
+	text-decoration: none;
+	color: #a30303; /* red */
+	white-space: nowrap;
+	cursor: pointer;
+}
+
+a:link {
+	font-size: 12px;
+	font-weight: normal;
+	font-family: Arial;
+	text-decoration: none;
+	color: #a30303; /* red */
+	white-space: nowrap;
+	cursor: pointer;
+}
+
+a:hover {
+	font-size: 12px;
+	font-weight: normal;
+	font-family: Arial;
+	text-decoration: underline;
+	color: #a30303; /* red */
+	white-space: nowrap;
+	cursor: pointer;
+}
+
+a:active {
+	font-size: 12px;
+	font-weight: normal;
+	font-family: Arial;
+	text-decoration: underline;
+	color: #a30303; /* red */
+	white-space: nowrap;
+	cursor: pointer;
+}
+
+a:visited {
+	font-size: 12px;
+	font-weight: normal;
+	font-family: Arial;
+	text-decoration: none;
+	color: #a30303; /* red */
+	white-space: nowrap;
+	cursor: pointer;
+}
+
+/* end red links */
+
+/* white menu links */
+
+a.menu {
+	font-size: 12px;
+	font-weight: normal;
+	font-family: Arial;
+	text-decoration: none;
+	color: #ffffff; /* white */
+	white-space: nowrap;
+	cursor: pointer;
+}
+
+a.menu:link {
+	font-size: 12px;
+	font-weight: normal;
+	font-family: Arial;
+	text-decoration: none;
+	color: #ffffff; /* white */
+	white-space: nowrap;
+	cursor: pointer;
+}
+
+a.menu:hover {
+	font-size: 12px;
+	font-weight: normal;
+	font-family: Arial;
+	text-decoration: underline;
+	color: #ffffff; /* white */
+	white-space: nowrap;
+	cursor: pointer;
+}
+
+a.menu:active {
+	font-size: 12px;
+	font-weight: normal;
+	font-family: Arial;
+	text-decoration: underline;
+	color: #ffffff; /* white */
+	white-space: nowrap;
+	cursor: pointer;
+}
+
+a.menu:visited {
+	font-size: 12px;
+	font-weight: normal;
+	font-family: Arial;
+	text-decoration: none;
+	color: #ffffff; /* white */
+	white-space: nowrap;
+	cursor: pointer;
+}
+
+/* end white menu links */
+
+h1 {
+  font-size: 22px;
+  line-height: 1.2;
+  font-weight: normal;
+  color: #605f5f; /* dark grey */
+  margin: 0 0 4% 0;
+  padding: 0 0 1% 0;
+  width: 100%;
+  border-bottom: solid 1px #d3d3d3;
+}
+
+/* myform */
+
+.my_form {
+  margin: 0 auto;
+  width: 40%;
+}
+
+.my_form label {
+  float: left;
+	font-weight: normal;
+	text-align: right;
+	width: 35%;
+	font-size: 13px;
+	padding: 1%;
+}
+
+.my_form input, select, textarea {
+	float: left;
+	font-size: 12px;
+	padding: 1% 1%;
+	border: solid 1px #d3d3d3; /* grey */
+	width: 40%;
+	margin: 0 0 5% 2%;
+	font-family: Arial;
+}
+
+.my_form .button {
+  float: left;
+	margin: 5% 0 20% 30%;
+	padding: 2%;
+	background: #a30303;
+	background-image: -moz-linear-gradient(top, #a30303, #860202);
+	background-image: -ms-linear-gradient(top, #a30303, #860202);
+	background-image: -webkit-linear-gradient(top, #a30303, #860202);
+	background-image: -o-linear-gradient(top, #a30303, #860202);
+	background-image: linear-gradient(top, #a30303, #860202);
+	text-align: center;
+	color: #ffffff;
+	font-size: 12px;
+	line-height: 1;
+	font-weight: normal;
+	border: 0;
+	cursor: pointer;
+}
+
+/* end myform */
+
+.error {
+  color: red;
+  width: 100%;
+  text-align: center;
+  margin: 2%;
+}
+
+.notice {
+  color: green;
+  width: 100%;
+  text-align: center;
+  margin: 2%;
+}
